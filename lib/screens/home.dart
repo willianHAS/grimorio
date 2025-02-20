@@ -59,7 +59,6 @@ class _HomeState extends State<Home> {
   }
 }
 
-// Filled Home widget
 class _FilledHome extends StatefulWidget {
   _FilledHome({required this.listPersonalBook});
 
