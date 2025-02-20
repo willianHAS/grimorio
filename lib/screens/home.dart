@@ -32,7 +32,6 @@ class _HomeState extends State<Home> {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Center(
-          // Need connection with sqflite
           child: FutureBuilder(
             future: bookController.getBooks(),
             builder: (context, snapshot) {
