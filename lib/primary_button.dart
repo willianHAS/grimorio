@@ -13,7 +13,7 @@ class PrimaryButton extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
-        width: PrimaryButtonProperties.size,
+        width: PrimaryButtonProperties.size, 
         decoration: PrimaryButtonProperties.boxDecoration,
         padding: const EdgeInsets.all(10),
         child: Row(
