@@ -8,7 +8,7 @@ class PrimaryButton extends StatelessWidget {
   final VoidCallback? onTap;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     const String stars = "assets/images/star_icon.svg";
     return InkWell(
       onTap: onTap,
